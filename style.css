@@ -1,0 +1,58 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for centering content */
+.container {
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Header styling */
+header h1 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Profile image styling */
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+/* Biodata section styling */
+.biodata h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.biodata p {
+    margin: 0.5rem 0;
+}
+
+.biodata strong {
+    color: #555;
+}
